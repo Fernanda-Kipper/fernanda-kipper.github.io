@@ -49,6 +49,13 @@ html body #about-me #content-me div h4
     font-weight: 500;
 }
 
+html body #about-me #content-me div h4 a
+{
+    font-size: 16px;
+    color: 	#272d2d;
+    font-family: 'Fira Sans', sans-serif;
+}
+
 html body #about-me #content-me div img
 {
     height: 300px;

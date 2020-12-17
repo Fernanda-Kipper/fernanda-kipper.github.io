@@ -56,7 +56,17 @@ html body #contact #contact-content #contact-exs h3
     padding: 8px;
     margin-top: 5px;
     margin-bottom: 50px;
+
+    display: flex;
+    align-items: center;
 }
+
+html body #contact #contact-content #contact-exs h3 img
+{
+    width: 40px;
+    height: 40px;
+}
+
 
 html body #contact #contact-content #contact-exs div
 {
@@ -78,6 +88,8 @@ html body #contact #contact-content #contact-exs a
     border-radius: 10px;
     margin-bottom: 10px;
     padding: 1%;;
+    max-width: 350px;
+    align-self: center;
 
 }
 
@@ -122,12 +134,19 @@ html body #contact #contact-content #contact-exs div img
     html body #contact #contact-content #contact-exs h2
     {
         width: 600px;
-        font-size: 28px;
     }
+
+    html body #contact #contact-content #contact-exs a
+    {
+        max-width: 700px;
+        margin-top: 5px;
+    }
+
     html body #contact #contact-content #contact-exs h3
     {
-        font-size: 30px;
+        font-size: 25px;
     }
+
     html body #contact #contact-content #contact-exs h4
     {
         font-size: 20px;

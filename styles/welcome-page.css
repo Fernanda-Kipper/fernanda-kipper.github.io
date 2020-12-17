@@ -39,6 +39,15 @@ html body #welcome-page .title h3
     text-align: center;
 }
 
+html body #welcome-page .title h4
+{
+    font-size: 23px;
+    font-weight: bold;
+    color: #50514f;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+}
+
 html body #welcome-page .codeGirlImg img{
     width: 300px;
     height: 200px;
@@ -50,7 +59,7 @@ html body  #welcome-page .icons
 
     width: 220px;
     height: 40px;
-    margin-top: 10%;
+    margin-top: 8%;
     border-radius: 10px;
 
     justify-content: space-between;
@@ -96,7 +105,7 @@ html body #welcome-page .icons a #medium
 {
     html body #welcome-page .codeGirlImg{
         width: 1100px;
-        transform: translateY(-60%);
+        transform: translateY(-40%);
     }
 
     html body #welcome-page .codeGirlImg img{
@@ -119,9 +128,19 @@ html body #welcome-page .icons a #medium
 
 @media only screen and (min-width: 1600px)
 {
+    html body  #welcome-page .icons
+    {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 240px;
+        height: 50px;
+        align-items: center;
+    } 
+
     html body #welcome-page .codeGirlImg{
         width: 1500px;
-        transform: translateY(-20%);
+        transform: translateY(-10%);
     }
 
     html body #welcome-page .codeGirlImg img{
