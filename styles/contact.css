@@ -1,0 +1,141 @@
+html body #contact
+{    
+    max-width: 100%;
+    margin-bottom: 100px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+html body #contact #contact-content
+{    
+    display: flex;
+    flex-direction: column;
+}
+
+html body #contact #contact-content h1
+{
+    font-size: 30px;
+    color: #f6f8ff;
+    font-family: 'Gloria Hallelujah', cursive;
+
+    background-color:  #363636;
+    
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+html body #contact #contact-content #contact-exs
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+html body #contact #contact-content #contact-exs h2
+{
+    font-family: 'Fira sans', sans-serif;
+    font-family: 25px;
+    width: 300px;
+    font-weight: 500;
+
+}
+
+html body #contact #contact-content #contact-exs h3
+{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+    background-color: #23cecb;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+html body #contact #contact-content #contact-exs div
+{
+    display: flex;
+    flex-direction: column;
+}
+
+html body #contact #contact-content #contact-exs div img
+{
+    display: none;
+}
+
+html body #contact #contact-content #contact-exs a
+{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background-color: #cfcfcf;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 1%;;
+
+}
+
+html body #contact #contact-content #contact-exs a span
+{
+    background-image: url(/styles/images/seta.png);
+    min-width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+html body #contact #contact-content #contact-exs h4
+{
+    color: #363636;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 10px;
+    font-size: 15px;
+    font-family: 'Fira Sans', sans-serif ;
+}
+
+html body #contact #contact-content #contact-exs div img
+{
+    width: 400px;
+    height: 200px;
+    align-self: center;
+}
+
+@media only screen and (min-width: 700px)
+{
+    html body #contact #contact-content #contact-exs div img
+    {
+        display: block;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 900px)
+{
+
+    html body #contact #contact-content #contact-exs h2
+    {
+        width: 600px;
+        font-size: 28px;
+    }
+    html body #contact #contact-content #contact-exs h3
+    {
+        font-size: 30px;
+    }
+    html body #contact #contact-content #contact-exs h4
+    {
+        font-size: 20px;
+    }
+
+    html body #contact #contact-content #contact-exs div img
+    {
+        width: 700px;
+        height: 400px;
+    }
+}

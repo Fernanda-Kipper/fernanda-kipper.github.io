@@ -1,0 +1,80 @@
+html body #my-skills
+{
+    max-width: 100%;
+    padding: 0;
+    margin-bottom: 100px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+html body #my-skills #content-skills
+{
+    display: flex;
+    flex-direction: column;
+}
+
+html body #my-skills #content-skills h1
+{
+    font-size: 30px;
+    color: #f6f8ff;
+    font-family: 'Gloria Hallelujah', cursive;
+
+    background-color:  #363636;
+    
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+html body #my-skills #content-skills .skills
+{
+    display: grid;
+    grid-template-columns: 300px;
+    align-items: center;
+    max-width: 300px;
+
+}
+
+html body #my-skills #content-skills .skills li{
+    color: #363636;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 5px;
+}
+
+html body #my-skills #content-skills .skills li strong{
+    color: #23cecb;
+}
+
+
+@media only screen and (min-width: 600px)
+{
+    html body #my-skills #content-skills .skills
+    {
+        grid-template-columns: 300px 300px;
+        max-width: 600px;
+    }
+}
+
+@media only screen and (min-width: 900px)
+{
+    html body #my-skills
+    {
+        margin-bottom: 200px;
+    } 
+
+    html body #my-skills #content-skills .skills
+    {
+        grid-template-columns: 400px 400px;
+        max-width: 900px;
+    }
+
+    html body #my-skills #content-skills .skills li{
+        max-width: 350px;
+    }
+}
+

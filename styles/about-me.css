@@ -1,0 +1,98 @@
+html body #about-me
+{    
+    max-width: 100%;
+    margin-bottom: 100px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+html body #about-me #content-me
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+html body #about-me #content-me h1
+{
+    font-size: 30px;
+    color: #f6f8ff;
+    font-family: 'Gloria Hallelujah', cursive;
+
+    background-color:  #363636;
+    
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+html body #about-me #content-me div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 400px;
+}
+
+html body #about-me #content-me div h4
+{
+    font-size: 16px;
+    color: 	#272d2d;
+    font-family: 'Fira Sans', sans-serif;
+
+    max-width: 400px;
+    font-weight: 500;
+}
+
+html body #about-me #content-me div img
+{
+    height: 300px;
+    width: 300px;
+    margin-bottom: 1%;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 700px)
+{
+    html body #about-me #content-me div
+    {
+        max-width: 700px;
+        flex-direction: row;
+    }
+
+    html body #about-me #content-me div h4
+    {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (min-width: 900px)
+{
+    html body #about-me #content-me .about-content
+    {
+        margin-bottom: 200px;
+    }
+    html body #about-me #content-me div
+    {
+        max-width: 900px;
+        flex-direction: row;
+    }
+
+    html body #about-me #content-me div h4
+    {
+        max-width: 500px;
+        font-size: 20px;
+        margin-left: 5%;
+    }
+
+    html body #about-me #content-me div img
+    {
+        width: 400px;
+        height: 400px;
+    }
+}

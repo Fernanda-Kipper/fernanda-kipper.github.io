@@ -1,0 +1,105 @@
+html body #welcome-page
+{
+    max-width: 100%;
+    margin-bottom: 40%;
+    margin-top: 5%;
+
+    scroll-behavior: smooth;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+html body #welcome-page .title 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 400px;
+}
+
+
+html body #welcome-page .title h1
+{
+    font-size: 40px;
+    color: #50514f;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+html body #welcome-page .title h3
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: #50514f;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 8%;
+    text-align: center;
+}
+
+html body  #welcome-page .icons
+{
+    background-color:#23cecb;
+
+    width: 220px;
+    height: 40px;
+    margin-top: 10%;
+    border-radius: 10px;
+
+    justify-content: space-between;
+    display: flex;
+
+}
+
+html body welcome-page .icons #link:hover ,#git:hover, #medium:hover
+{
+    background-color: aliceblue;
+    padding: 0.4px;
+}
+
+html body #welcome-page .icons a span
+{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    transition: 200ms;
+}
+
+html body #welcome-page .icons a #link
+{
+ 
+    background-image: url(/styles/images/linkedin_icon.svg);
+    align-content: center;
+}
+
+html body #welcome-page .icons a #git
+{
+
+    background-image: url(/styles/images/github_icon.svg);
+}
+
+html body #welcome-page .icons a #medium
+{
+
+    background-image: url(/styles/images/medium_icon.svg);
+}
+
+@media only screen and (min-width: 1200px)
+{
+    
+    html body #welcome-page .title h1
+    {
+        font-size: 50px;
+    }
+ 
+    html body  #welcome-page .icons
+    {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+    }
+}
