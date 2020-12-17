@@ -56,12 +56,6 @@ html body header nav a
 
 @media only screen and (min-width: 1200px)
 {
-    html
-    {
-        background: url(../styles/images/wallpaper.svg) no-repeat;
-        background-size: 100%;
-    }
-
     html body header nav a
     {
     font-size: 20px;
