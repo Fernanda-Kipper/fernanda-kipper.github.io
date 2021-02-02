@@ -6,8 +6,6 @@ html body #contact
     display: flex;
     align-items: center;
     flex-direction: column;
-
-
 }
 
 html body #contact #contact-content
@@ -16,18 +14,15 @@ html body #contact #contact-content
     flex-direction: column;
 }
 
-html body #contact #contact-content h1
+html body #contact #contact-content h2
 {
     font-size: 30px;
-    color: #f6f8ff;
-    font-family: 'Gloria Hallelujah', cursive;
-
-    background-color:  #363636;
+    text-align: center;
+    margin: 20px auto;
     
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
-    margin-bottom: 100px;
+    color: #a846a0;
+
+    font-family: 'Roboto Mono', monospace;
 }
 
 html body #contact #contact-content #contact-exs
@@ -38,25 +33,23 @@ html body #contact #contact-content #contact-exs
     align-items: center;
 }
 
-html body #contact #contact-content #contact-exs h2
+html body #contact #contact-content #contact-exs p
 {
-    font-family: 'Fira sans', sans-serif;
-    font-family: 25px;
-    width: 300px;
+    font-family: 16px;
+    width: 60vw;
     font-weight: 500;
 
 }
 
 html body #contact #contact-content #contact-exs h3
 {
-    font-family: 'Fira Sans', sans-serif;
     font-size: 24px;
-    background-color: #23cecb;
     border-radius: 10px;
     padding: 8px;
     margin-top: 5px;
     margin-bottom: 50px;
 
+    font-family: 'Roboto Mono', monospace;
     display: flex;
     align-items: center;
 }
@@ -65,96 +58,4 @@ html body #contact #contact-content #contact-exs h3 img
 {
     width: 40px;
     height: 40px;
-}
-
-
-html body #contact #contact-content #contact-exs div
-{
-    display: flex;
-    flex-direction: column;
-}
-
-html body #contact #contact-content #contact-exs div img
-{
-    display: none;
-}
-
-html body #contact #contact-content #contact-exs a
-{
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    background-color: #cfcfcf;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    padding: 1%;;
-    max-width: 350px;
-    align-self: center;
-
-}
-
-html body #contact #contact-content #contact-exs a span
-{
-    background-image: url(/styles/images/seta.png);
-    min-width: 30px;
-    height: 30px;
-    margin-right: 10px;
-}
-
-html body #contact #contact-content #contact-exs h4
-{
-    color: #363636;
-    font-weight: bold;
-    border-radius: 8px;
-    margin: 10px;
-    font-size: 15px;
-    font-family: 'Fira Sans', sans-serif ;
-}
-
-html body #contact #contact-content #contact-exs div img
-{
-    width: 400px;
-    height: 200px;
-    align-self: center;
-}
-
-@media only screen and (min-width: 700px)
-{
-    html body #contact #contact-content #contact-exs div img
-    {
-        display: block;
-        border-radius: 10px;
-        margin-bottom: 10px;
-    }
-}
-
-@media only screen and (min-width: 900px)
-{
-
-    html body #contact #contact-content #contact-exs h2
-    {
-        width: 600px;
-    }
-
-    html body #contact #contact-content #contact-exs a
-    {
-        max-width: 700px;
-        margin-top: 5px;
-    }
-
-    html body #contact #contact-content #contact-exs h3
-    {
-        font-size: 25px;
-    }
-
-    html body #contact #contact-content #contact-exs h4
-    {
-        font-size: 20px;
-    }
-
-    html body #contact #contact-content #contact-exs div img
-    {
-        width: 700px;
-        height: 400px;
-    }
 }

@@ -1,8 +1,18 @@
+@keyframes title{
+    0% {color:#fff; left:-200px; top:0px;}
+    100%  {color: #50514f; left:0px;}
+}
+
+@keyframes subtitles{
+    0% {color:#fff;}
+    100%  {color: #50514f;}
+}
+
 html body #welcome-page
 {
     max-width: 100%;
-    margin-bottom: 40%;
     margin-top: 5%;
+    height: 100vh;
 
     scroll-behavior: smooth;
 
@@ -26,26 +36,46 @@ html body #welcome-page .title h1
 {
     font-size: 40px;
     color: #50514f;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Roboto Mono', monospace;
+    position: relative;
+    animation-name: title;
+    animation-duration: 2s;
+
+    text-align: center;
 }
 
-html body #welcome-page .title h3
+html body #welcome-page .title h2
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: #50514f;
+    font-family: 'Roboto Mono', monospace;
+    margin: 8%;
+    text-align: center;
+
+    animation-name: subtitles;
+    animation-duration: 4s;
+}
+html body #welcome-page .title span
 {
     font-size: 25px;
     font-weight: bold;
     color: #50514f;
-    font-family: 'Fira Sans', sans-serif;
-    margin: 8%;
     text-align: center;
+
+    animation-name: subtitles;
+    animation-duration: 4s;
 }
 
-html body #welcome-page .title h4
+html body #welcome-page .title h3
 {
     font-size: 23px;
     font-weight: bold;
     color: #50514f;
-    font-family: 'Fira Sans', sans-serif;
     text-align: center;
+
+    animation-name: subtitles;
+    animation-duration: 5s;
 }
 
 html body #welcome-page .codeGirlImg img{
@@ -55,8 +85,7 @@ html body #welcome-page .codeGirlImg img{
 
 html body  #welcome-page .icons
 {
-    background-color:#23cecb;
-
+    background-color:#DBA9D7;
     width: 220px;
     height: 40px;
     margin-top: 8%;
@@ -67,7 +96,9 @@ html body  #welcome-page .icons
 
 }
 
-html body welcome-page .icons #link:hover ,#git:hover, #medium:hover
+html body #welcome-page .icons a #linkedin:hover,
+#git:hover, 
+#medium:hover
 {
     background-color: aliceblue;
     padding: 0.4px;
@@ -82,12 +113,13 @@ html body #welcome-page .icons a span
     transition: 200ms;
 }
 
-html body #welcome-page .icons a #link
+html body #welcome-page .icons a #linkedin
 {
  
     background-image: url(/styles/images/linkedin_icon.svg);
     align-content: center;
 }
+
 
 html body #welcome-page .icons a #git
 {

@@ -14,67 +14,89 @@ html body #my-skills #content-skills
 {
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
 }
 
-html body #my-skills #content-skills h1
+html body #my-skills #content-skills h2
 {
     font-size: 30px;
+    text-align: center;
     color: #f6f8ff;
-    font-family: 'Gloria Hallelujah', cursive;
-
-    background-color:  #363636;
+    background-color: #DBA9D7;
     
     display: flex;
     justify-content: center;
-    border-radius: 10px;
-    margin-bottom: 100px;
+    padding: 100px;
+
+    font-family: 'Roboto Mono', monospace;
 }
 
-html body #my-skills #content-skills .skills
+html body #my-skills #content-skills .skills-items
 {
-    display: grid;
-    grid-template-columns: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+html body #my-skills #content-skills .skills-items .card
+{
+    background-color: #fff;
+    box-shadow: 0px .5px .5px rgba(0,0,0,0.7);
+
+    border-radius: 20px;
+    max-width: 80vw;
+    padding: 30px;
+    margin: 10px;
+    transform: translateY(-50px);
+
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    max-width: 300px;
-
 }
 
-html body #my-skills #content-skills .skills li{
-    color: #363636;
-    font-size: 20px;
-    font-family: 'Fira Sans', sans-serif;
-    margin-left: 5px;
+html body #my-skills #content-skills .skills-items .card img{
+    width: 40px;
+    height: 40px;
+    color: #50514f;
 }
 
-html body #my-skills #content-skills .skills li strong{
-    color: #23cecb;
-}
-
-
-@media only screen and (min-width: 600px)
+html body #my-skills #content-skills .skills-items .card h3
 {
-    html body #my-skills #content-skills .skills
-    {
-        grid-template-columns: 300px 300px;
-        max-width: 600px;
-    }
+    margin: 10px auto;
+    color: #50514f;
 }
+
+html body #my-skills #content-skills .skills-items .card h5
+{
+    margin: 5px auto;
+    color: #a846a0;
+}
+
+html body #my-skills #content-skills .skills-items .card p
+{
+    margin: auto;
+}
+
 
 @media only screen and (min-width: 900px)
 {
-    html body #my-skills
-    {
-        margin-bottom: 200px;
-    } 
 
-    html body #my-skills #content-skills .skills
+    html body #my-skills #content-skills h2
     {
-        grid-template-columns: 400px 400px;
-        max-width: 900px;
+        border-radius: 10px;
+        padding: 100px;
+        min-width: 80vw;
     }
 
-    html body #my-skills #content-skills .skills li{
-        max-width: 350px;
+    html body #my-skills #content-skills .skills-items
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    html body #my-skills #content-skills .skills-items .card
+    {
+        max-width: 20vw;
     }
 }
 

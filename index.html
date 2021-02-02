@@ -4,17 +4,15 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portifólio</title>
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+        <title>Fernanda Kipper Dev</title>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./styles/main.css">
         <link rel="stylesheet" href="./styles/welcome-page.css">
         <link rel="stylesheet" href="./styles/about-me.css">
         <link rel="stylesheet" href="./styles/my-skills.css">
+        <link rel="stylesheet" href="./styles/projects.css">
         <link rel="stylesheet" href="./styles/contact.css">
-        
-
-        
-
     </head>
 
     <body>
@@ -22,7 +20,8 @@
             <a id="logo" href="#"></a>
             <nav>
                 <a href="#about-me">Sobre mim</a>
-                <a href="#my-skills">Minhas habilidades</a>
+                <a href="#my-skills">Skills</a>
+                <a href="#projects">Projetos</a>
                 <a href="#contact">Contato</a>
             </nav>
         </header>
@@ -30,9 +29,8 @@
         <section id="welcome-page">
 
             <div class="title">
-                <h1>Seja bem vindo,</h1>
-                <h3>Me chamo Fernanda Kipper - Desenvolvedora Júnior</h3>
-                <h4>e quero te contar um pouco mais sobre mim.</h4>
+                <h1>Desenvolvedora Júnior</h1>
+                <h2><span>Prazer, me chamo</span> Fernanda</h2>
             </div>
 
             <div class="codeGirlImg">
@@ -40,7 +38,7 @@
             </div>
 
             <div class="icons">
-                <a href="https://www.linkedin.com/in/fernanda-kipper-5958a61a9/"><span id="link"></span></a>
+                <a href="https://www.linkedin.com/in/fernanda-kipper-5958a61a9/"><span id="linkedin"></span></a>
                 <a href="https://github.com/Fernanda-Kipper"><span id="git"></span></a>
                 <a href="https://nanda-kipper.medium.com/"><span id="medium"></span></a>
             </div>
@@ -54,48 +52,99 @@
         
         <section id="about-me">
             <div id="content-me">
-                <h1>Sobre mim</h1>
-                <div class="about-content">
-                    <a href="#">
-                        <img src="./styles/images/torre_eiffel_eu_corte.jpg" alt="Minha foto">
-                    </a>
-                    <h4>
-                        Atualmente estudante de Ciência da Computação na Universidade Federal de Pelotas, nascida em 2001 e natural de Rio Grande.
-                        Sempre gostei muito de desafios -tanto no colégio quanto em tarefas que eu mesma me empregava - e sempre fiquei motivada para achar soluções simples mas eficazes, porém, foi apenas no terceiro ano do ensino médio
-                        que percebi que isso poderia fazer parte da minha profissão. A partir de janeiro de 2020 comecei então minha caminhada no imenso mundo da programação, até então já me aventurei no mundo Orientado Objetos - com linguagens como Python e JavaScript -
-                        Além disso aprendi um pouco sobre o mundo Procedural - C. Nos últimos meses, estive muito envolvida com projetos Web relacionados a minha Bolsa de Desenvolvimento Tecnológico concedida pela FAPERGS participando o Grupo <a href="http://crie.space/">CrIE</a>.
-                    </h4>
-                </div>
+                <h2>Olá! Sou a <strong>Fernanda Kipper</strong></h2>
+                <p>
+                    Atualmente estudante de Ciência da Computação na Universidade Federal de Pelotas, nascida em 2001 e natural de Rio Grande.
+                    Sempre gostei muito de desafios -tanto no colégio quanto em tarefas que eu mesma me empregava - e sempre fiquei motivada para achar soluções simples mas eficazes, porém, foi apenas no terceiro ano do ensino médio
+                    que percebi que isso poderia fazer parte da minha profissão. Nos últimos meses, estive muito envolvida com projetos Web relacionados a minha Bolsa de Desenvolvimento Tecnológico concedida pela FAPERGS participando o Grupo <a href="http://crie.space/">CrIE</a> e em 2021 iniciei projetos como Freelancer.
+                </p>
         </div>
         </section>
 
          <section id="my-skills">
             <div id="content-skills">
-                <h1>Minhas habilidades</h1>
-                <ul class="skills">     
-                    <li><strong>Python</strong> - Realizei projetos pessoais como Web Scrappers e pequenos softwares.</li>
-                    <li><strong>JavaScript</strong> - Utilizado durante minha bolsa na Univerisidade onde desenvolvi sites com frameworks como React JS e Angular.</li>        
-                    <li><strong>Node JS </strong> - Também utilizado durante minha bolsa, onde desenvolvemos Backend e API´s REST utlizando Node - Express e outras dependências. </li>
-                    <li><strong>SQL</strong> - Implementei em projetos pessoais e durante a bolsa.</li>
-                    <li><strong>Inglês</strong> - Conclui o curso avançado no Yázigi em 2019.</li>
-                    <li><strong>HTML5 e CSS3</strong> - Treinei em projetos pessoais  - incluindo meu site Portifólio - e utilizo diariamente na minha bolsa.</li>
+                <h2>Minhas skills</h2>
+                <ul class="skills-items">
+                    <li class="card">
+                        <img src="./styles/images/frontend.svg" alt="Frontend Imagem">
+                        <h3>Frontend</h3>
+                        <h5>Tecnologias</h5>
+                        <p>HTML5, CSS3, JavaScript, Typescript</p>
+                        <h5>Frameworks</h5>
+                        <p>React JS, Next JS e Angular JS</p>
+                    </li>
+                    <li class="card">
+                        <img src="./styles/images/backend.svg" alt="Backend Imagem">
+                        <h3>Backend</h3>
+                        <h5>Tecnologias</h5>
+                        <p>NodeJS, MySQL, Firebase, Typescript</p>
+                        <h5>Frameworks</h5>
+                        <p>Express</p>
+                    </li>
+                    <li class="card">
+                        <img src="./styles/images/datascience.svg" alt="Ciência de Dados Imagem">
+                        <h3>Data Science</h3>
+                        <h5>Tecnologias</h5>
+                        <p>Python, Jupyter notebooks</p>
+                        <h5>Frameworks</h5>
+                        <p>Numpy, Pandas</p>
+                    </li>
+                    <li class="card">
+                        <img src="./styles/images/knowledge.svg" alt="Ciência de Dados Imagem">
+                        <h3>Outras</h3>
+                        <p>Inglês avançado</p>
+                        <p>Facilidade em comunicação</p>
+                        <p>Autoditada</p>
+                        <p>Lógica de programação</p>
+                    </li>
                 </ul>
-        </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="project-content">
+                <h2>Projetos recentes</h2>
+                <div class="projects-grid">
+                    <figure>
+                        <a href="#">
+                            <img src="./styles/images//reacloud.png" alt="ReaCloud" style="width:100%">
+                            <figcaption>Repositório Digital para armanezamento de Recursos Educacionais, desenvolvido com React JS no Frontend e Node JS no Backend - API REST</figcaption>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="http://crie.space/#/">
+                            <img src="./styles/images/crie.png" alt="Site CrIE" style="width:100%">
+                            <figcaption>Site desenvolvido para o grupo de pesquisas da faculdade o qual faço parte, utilizando Angular JS no Frontend e Node JS no Backend</figcaption>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="https://live-chat-one.vercel.app/">
+                            <img src="./styles/images/livechat.png" alt="Site CrIE" style="width:100%">
+                            <figcaption>Live Chat desenvolvido para praticar conceitos de React JS e consumindo dados do Firebase - Cloud Firestore</figcaption>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="https://alura-quiz-avengers.vercel.app/">
+                            <img src="./styles/images/quiz.png" alt="Site CrIE" style="width:100%">
+                            <figcaption>Quiz desenvolvido durante uma Imersão de React com Next JS da Alura</figcaption>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="https://github.com/Fernanda-Kipper">
+                            <img src="./styles/images/github.png" alt="Git Hub Fernanda Kipper" style="width:100%">
+                            <figcaption>Lá no meu GitHub você encontra outros projetos que já realizei também</figcaption>
+                        </a>
+                    </figure>
+                </div>
+            </div>
         </section>
         
         <section id="contact">
             <div id="contact-content">
-                <h1>Contato</h1>
+                <h2>Contato</h2>
                 <div id="contact-exs">
-                    <h2> Caso tenha interesse no meu trabalho ou acha que posso te ajudar, pode entrar em contato através do meu email :)</h2>
+                    <p> Caso tenha interesse no meu trabalho ou acha que posso te ajudar, pode entrar em contato através do meu email :)</p>
                     <h3><img src="./styles/images/email.svg"/>nanda.kipper@gmail.com </h3>
-                    <div>
-                        <img src="./styles/images/github_pic.png" alt="">
-                        <a href="https://github.com/Fernanda-Kipper">
-                        <span></span>
-                        <h4>Te convido também a dar uma olhada nos meus reporitórios do GitHub!</h4>
-                        </a>
-                    </div>
                 </div>
             </div>
         </section>

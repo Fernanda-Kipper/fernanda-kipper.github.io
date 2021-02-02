@@ -1,0 +1,87 @@
+html body #projects{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    height: max(100vh, 100%);
+    width: 100%;
+}
+
+html body #projects .project-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+html body #projects .project-content h2{
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+
+    margin: 20px auto;
+    text-align: center;
+
+    color: #a846a0;
+}
+
+html body #projects .project-content .projects-grid{
+    display: flex;
+    flex-direction: column;
+    max-width: 90vw;
+}
+
+
+html body #projects .project-content .projects-grid figure{
+    width: 100%;
+}
+
+
+html body #projects .project-content .projects-grid figure a{
+    text-decoration: none;
+    transition: 300ms;
+}
+
+html body #projects .project-content .projects-grid img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+html body #projects .project-content .projects-grid figcaption{
+    transform: translateY(-120px);
+    
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+
+    width: 80%;
+    margin: auto;
+
+   visibility: hidden;
+}
+
+html body #projects .project-content .projects-grid a:hover figcaption{
+    visibility: visible;
+}
+
+html body #projects .project-content .projects-grid a:hover img{
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    color: #FFF;
+}
+
+
+
+@media(min-width: 900px){   
+    html body #projects .project-content .projects-grid{
+        display: grid;
+        width: 80vw;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+    }
+}
