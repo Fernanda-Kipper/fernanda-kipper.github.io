@@ -91,7 +91,7 @@ html body #my-skills #content-skills .skills-items .card p
     {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        margin: auto;
     }
 
     html body #my-skills #content-skills .skills-items .card
