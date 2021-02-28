@@ -20,7 +20,7 @@ html body #contact #contact-content h2
     text-align: center;
     margin: 20px auto;
     
-    color: #a846a0;
+    color: var(--titleColor);
 
     font-family: 'Roboto Mono', monospace;
 }

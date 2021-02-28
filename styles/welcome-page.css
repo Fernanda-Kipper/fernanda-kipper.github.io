@@ -85,7 +85,7 @@ html body #welcome-page .codeGirlImg img{
 
 html body  #welcome-page .icons
 {
-    background-color:#DBA9D7;
+    background-color: var(--titleColor);
     width: 220px;
     height: 40px;
     margin-top: 8%;

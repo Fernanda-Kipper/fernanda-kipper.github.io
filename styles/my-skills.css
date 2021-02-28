@@ -22,7 +22,7 @@ html body #my-skills #content-skills h2
     font-size: 30px;
     text-align: center;
     color: #f6f8ff;
-    background-color: #DBA9D7;
+    background-color: var(--titleColor);
     
     display: flex;
     justify-content: center;

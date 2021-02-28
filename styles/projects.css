@@ -22,7 +22,7 @@ html body #projects .project-content h2{
     margin: 20px auto;
     text-align: center;
 
-    color: #a846a0;
+    color: var(--titleColor);
 }
 
 html body #projects .project-content .projects-grid{

@@ -31,7 +31,7 @@ html body #about-me #content-me h2
 
 html body #about-me #content-me h2 strong
 { 
-    color: #a846a0;
+    color: var(--titleColor);
     font-family: 'Roboto Mono', monospace;
 }
 
