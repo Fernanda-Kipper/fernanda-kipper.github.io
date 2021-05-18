@@ -28,12 +28,13 @@ html body #projects .project-content h2{
 html body #projects .project-content .projects-grid{
     display: flex;
     flex-direction: column;
-    max-width: 90vw;
+    max-width: 1100px;
 }
 
 
 html body #projects .project-content .projects-grid figure{
     width: 100%;
+    max-width: 320px;
 }
 
 
