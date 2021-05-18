@@ -1,5 +1,10 @@
-# Fernanda Kipper
-## :information_source: Objetivo
-Desenvolvi meu [Portfólio](https://fernanda-kipper.github.io) em formato de website com o intuito de  exibir um pouco dos meus conhecimentos!
+<h1 align="center"><img align="center" src="./styles/images/FkLogo.svg" width="100"></h1>
 
-Espero que goste :)
+Esse repositório foi criado para hospedar o meu Portifólio que desenvolvi para expor meus conhecimentos e contar um pouco mais sobre mim :)
+
+<h3 align="center"><a href="https://fernanda-kipper.github.io">💻 Visite meu portifólio clicando aqui</a></h3>
+
+<h2 id="tech" >Tecnologias</h2>
+
+- CSS
+- HTML
