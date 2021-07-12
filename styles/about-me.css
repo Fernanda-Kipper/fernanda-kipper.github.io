@@ -18,6 +18,19 @@ html body #about-me #content-me
     max-width: 60vw;
 }
 
+html body #about-me #content-me section{
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+    flex-direction: column;
+    min-width: 350px;
+}
+
+html body #about-me #content-me section img{
+    width: 180px;
+    border-radius: 999%;
+}
+
 html body #about-me #content-me h2
 {
     font-size: 30px;
@@ -35,6 +48,15 @@ html body #about-me #content-me h2 strong
     font-family: 'Roboto Mono', monospace;
 }
 
+html body #about-me #content-me h3
+{ 
+    color: #50514f;
+    font-family: 'Roboto Mono', monospace;
+    margin: 32px 8px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
 html body #about-me #content-me p
 {
     font-size: 18px;
@@ -42,6 +64,18 @@ html body #about-me #content-me p
     color: 	#272d2d;
 
     font-weight: 500;
+}
+
+html body #about-me #content-me p strong
+{
+    font-weight: 600;
+    color: var(--titleColor);
+}
+
+html body #about-me #content-me p a
+{
+    color: 	#272d2d;
+    font-style: italic;
 }
 
 @media only screen and (min-width: 700px)

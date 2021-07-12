@@ -37,7 +37,6 @@ html body #projects .project-content .projects-grid figure{
     max-width: 320px;
 }
 
-
 html body #projects .project-content .projects-grid figure a{
     text-decoration: none;
     transition: 300ms;
@@ -51,7 +50,7 @@ html body #projects .project-content .projects-grid img{
 }
 
 html body #projects .project-content .projects-grid figcaption{
-    transform: translateY(-120px);
+    transform: translateY(-120%);
     
     color: #000;
     font-weight: bold;

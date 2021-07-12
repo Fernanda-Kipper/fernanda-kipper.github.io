@@ -11,76 +11,78 @@
 html body #welcome-page
 {
     max-width: 100%;
-    margin-top: 5%;
-    height: 100vh;
+    margin-top: 10%;
+    height: 90vh;
 
     scroll-behavior: smooth;
 
     display: flex;
     align-items: center;
+    justify-content: start;
     flex-direction: column;
 }
-
 
 html body #welcome-page .title 
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 
     max-width: 400px;
 }
 
 html body #welcome-page .title h1
 {
-    font-size: 40px;
+    font-size: 2.4rem;
     color: #50514f;
     font-family: 'Roboto Mono', monospace;
     position: relative;
     animation-name: title;
     animation-duration: 2s;
-
     text-align: center;
+    margin-bottom: 16px;
 }
 
-html body #welcome-page .title h2
-{
-    font-size: 30px;
-    font-weight: bold;
-    color: #50514f;
-    font-family: 'Roboto Mono', monospace;
-    margin: 8%;
-    text-align: center;
-
-    animation-name: subtitles;
-    animation-duration: 4s;
-}
-html body #welcome-page .title span
+html body #welcome-page .title span, p
 {
     font-size: 25px;
-    font-weight: bold;
     color: #50514f;
     text-align: center;
+    display: block;
 
     animation-name: subtitles;
     animation-duration: 4s;
 }
 
-html body #welcome-page .title h3
-{
-    font-size: 23px;
+html body #welcome-page .title span{
     font-weight: bold;
-    color: #50514f;
-    text-align: center;
-
-    animation-name: subtitles;
-    animation-duration: 5s;
 }
 
-html body #welcome-page .codeGirlImg img{
-    width: 300px;
-    height: 200px;
+html body #welcome-page .title a{
+    background-color: var(--titleColor);
+    color: white;
+
+    padding: 16px;
+    width: 60%;
+    border-radius: 8px;
+    margin-top: 16px;
+
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+
+    opacity: 0.85;
+    transition: 400ms;
+}
+
+html body #welcome-page .title a:hover{
+    opacity: 1;
+}
+
+html body #welcome-page .code-girl{
+    width: 360px;
+    height: 300px;
 }
 
 html body  #welcome-page .icons
@@ -88,12 +90,15 @@ html body  #welcome-page .icons
     background-color: var(--titleColor);
     width: 220px;
     height: 40px;
-    margin-top: 8%;
-    border-radius: 10px;
+    padding: 8px;
+    border-radius: 16px;
 
     justify-content: space-between;
     display: flex;
 
+    position: absolute;
+    bottom: 8px;
+    z-index: 999;
 }
 
 html body #welcome-page .icons a #linkedin:hover,
@@ -133,51 +138,75 @@ html body #welcome-page .icons a #medium
     background-image: url(/styles/images/medium_icon.svg);
 }
 
-@media only screen and (min-width: 1100px)
+@media only screen and (min-width: 1000px)
 {
-    html body #welcome-page .codeGirlImg{
-        width: 1100px;
-        transform: translateY(-40%);
+    html body #welcome-page {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        justify-content: center;
     }
 
-    html body #welcome-page .codeGirlImg img{
-        width: 400px;
+    html body #welcome-page .title 
+    {
+        width: 520px;
+        min-height: 300px;
+    }
+
+    html body #welcome-page .title span, p
+    {
+        text-align: justify;
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    
+    html body #welcome-page .title h1 {
+        font-size: 3rem;
+        text-align: justify;
+    }
+
+    html body #welcome-page .code-girl {
+        width: 380px;
         height: 300px;
     }
     
-    html body #welcome-page .title h1
-    {
-        font-size: 50px;
-    }
- 
     html body  #welcome-page .icons
     {
         position: fixed;
-        bottom: 10px;
-        right: 10px;
+        bottom: 16px;
+        right: 16px;
     }
 }
 
-@media only screen and (min-width: 1600px)
-{
-    html body  #welcome-page .icons
+@media only screen and (min-height: 1200px){
+    html body #welcome-page .code-girl {
+        width: 480px;
+        height: 400px;
+    }
+    html body #welcome-page .title 
     {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        width: 240px;
-        height: 50px;
-        align-items: center;
-    } 
+        min-height: 400px;
+    }
+}
 
-    html body #welcome-page .codeGirlImg{
-        width: 1500px;
-        transform: translateY(-10%);
+@media only screen and (min-width: 1400px)
+{
+    html body #welcome-page {
+        align-items: flex-start;
     }
 
-    html body #welcome-page .codeGirlImg img{
-        width: 500px;
-        height: 400px;
-        align-self: flex-start;
+    html body #welcome-page .title 
+    {
+        width: 700px;
+        min-height: 500px;
+    }
+    
+    html body #welcome-page .title h1 {
+        font-size: 3.5rem;
+    }
+
+    html body #welcome-page .code-girl {
+        width: 580px;
+        height: 500px;
     }
 }
