@@ -74,6 +74,8 @@ html body #welcome-page .title a{
 
     opacity: 0.85;
     transition: 400ms;
+
+    display: none;
 }
 
 html body #welcome-page .title a:hover{
@@ -175,6 +177,10 @@ html body #welcome-page .icons a #medium
         position: fixed;
         bottom: 16px;
         right: 16px;
+    }
+
+    html body #welcome-page .title a{
+        display: block;
     }
 }
 
