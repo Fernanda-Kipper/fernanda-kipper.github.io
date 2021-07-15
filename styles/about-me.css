@@ -26,10 +26,19 @@ html body #about-me #content-me section{
     min-width: 350px;
 }
 
+.container-img{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 180px;
+    height: 180px;
+}
+
 html body #about-me #content-me section img{
     width: 180px;
-    border-radius: 999%;
+    height: 180px;
 }
+
+
 
 html body #about-me #content-me h2
 {
