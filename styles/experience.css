@@ -1,0 +1,77 @@
+html body #experience
+{
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: 100px;
+
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+html body #experience #content-experience
+{
+  display: flex;
+  flex-direction: column;
+}
+
+html body #experience #content-experience h2
+{
+  font-size: 30px;
+  font-family: 'Roboto Mono', monospace;
+
+  margin: 20px auto;
+  text-align: center;
+
+  color: var(--title);
+}
+
+html body #experience #content-experience .timeline
+{
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+html body #experience #content-experience .timeline .event::before{
+  content: '';
+  background: var(--title);
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  transform: translateX(-50%);
+}
+
+html body #experience #content-experience .timeline .event
+{
+  border-left: 2px solid var(--title);
+  padding-left: 12px;
+  padding-bottom: 16px;
+}
+
+html body #experience #content-experience .timeline .event h3
+{
+  font-size: 1.2rem;
+  color: var(--text);
+  font-weight: 600;
+  font-family: 'Roboto Mono', monospace;
+}
+
+html body #experience #content-experience .timeline .event h4
+{
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--text);
+  margin: 4px 0;
+}
+
+html body #experience #content-experience .timeline .event p
+{
+  font-size: 1.2rem;
+  color: #272d2d;
+}
