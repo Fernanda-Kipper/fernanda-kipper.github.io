@@ -37,20 +37,20 @@ html body #about-me #content-me h2
     text-align: center;
     margin: 10px auto;
     
-    color: #50514f;
+    color: var(--text);
 
     font-family: 'Roboto Mono', monospace;
 }
 
 html body #about-me #content-me h2 strong
 { 
-    color: var(--titleColor);
+    color: var(--title);
     font-family: 'Roboto Mono', monospace;
 }
 
 html body #about-me #content-me h3
 { 
-    color: #50514f;
+    color: var(--text);
     font-family: 'Roboto Mono', monospace;
     margin: 32px 8px;
     font-size: 1.2rem;
@@ -59,7 +59,7 @@ html body #about-me #content-me h3
 
 html body #about-me #content-me p
 {
-    font-size: 18px;
+    font-size: 1.2rem;
     text-align: center;
     color: 	#272d2d;
 
@@ -69,7 +69,7 @@ html body #about-me #content-me p
 html body #about-me #content-me p strong
 {
     font-weight: 600;
-    color: var(--titleColor);
+    color: var(--title);
 }
 
 html body #about-me #content-me p a

@@ -1,11 +1,11 @@
 @keyframes title{
     0% {color:#fff; left:-200px; top:0px;}
-    100%  {color: #50514f; left:0px;}
+    100%  {color: var(--text); left:0px;}
 }
 
 @keyframes subtitles{
     0% {color:#fff;}
-    100%  {color: #50514f;}
+    100%  {color: var(--text);}
 }
 
 html body #welcome-page
@@ -35,7 +35,7 @@ html body #welcome-page .title
 html body #welcome-page .title h1
 {
     font-size: 2.4rem;
-    color: #50514f;
+    color: var(--text);
     font-family: 'Roboto Mono', monospace;
     position: relative;
     animation-name: title;
@@ -47,7 +47,7 @@ html body #welcome-page .title h1
 html body #welcome-page .title span, p
 {
     font-size: 25px;
-    color: #50514f;
+    color: var(--text);
     text-align: center;
     display: block;
 
@@ -60,7 +60,7 @@ html body #welcome-page .title span{
 }
 
 html body #welcome-page .title a{
-    background-color: var(--titleColor);
+    background-color: var(--title);
     color: white;
 
     padding: 16px;
@@ -89,7 +89,7 @@ html body #welcome-page .code-girl{
 
 html body  #welcome-page .icons
 {
-    background-color: var(--titleColor);
+    background-color: var(--title);
     width: 220px;
     height: 40px;
     padding: 8px;

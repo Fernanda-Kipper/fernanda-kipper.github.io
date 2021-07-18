@@ -1,5 +1,6 @@
 :root{
-    --titleColor: #5C4DCE;
+    --title: #5C4DCE;
+    --text: #50514f;
 }
 
 *
@@ -51,7 +52,7 @@ html body header nav a
     font-size: 15px;
     text-decoration: none;
     margin: 5px;
-    color: var(--titleColor);
+    color: var(--title);
     font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
 }

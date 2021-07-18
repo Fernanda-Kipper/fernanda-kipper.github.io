@@ -22,7 +22,7 @@ html body #my-skills #content-skills h2
     font-size: 30px;
     text-align: center;
     color: #f6f8ff;
-    background-color: var(--titleColor);
+    background-color: var(--title);
     
     display: flex;
     justify-content: center;
@@ -56,13 +56,13 @@ html body #my-skills #content-skills .skills-items .card
 html body #my-skills #content-skills .skills-items .card img{
     width: 40px;
     height: 40px;
-    color: #50514f;
+    color: var(--text);
 }
 
 html body #my-skills #content-skills .skills-items .card h3
 {
     margin: 10px auto;
-    color: #50514f;
+    color: var(--text);
 }
 
 html body #my-skills #content-skills .skills-items .card h5
@@ -97,7 +97,7 @@ html body #my-skills #content-skills .skills-items .card p
 
     html body #my-skills #content-skills .skills-items .card
     {
-        max-width: 20vw;
+        width: 20vw;
     }
 }
 
