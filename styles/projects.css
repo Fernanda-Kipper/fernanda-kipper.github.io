@@ -51,8 +51,7 @@ html body #projects .project-content .projects-grid img{
 
 html body #projects .project-content .projects-grid figcaption{
     transform: translateY(-120%);
-    
-    color: #000;
+    color: #FFF;
     font-weight: bold;
     text-align: center;
 
@@ -72,6 +71,7 @@ html body #projects .project-content .projects-grid a:hover img{
     -o-filter: blur(5px);
     -ms-filter: blur(5px);
     filter: blur(5px);
+    filter: brightness(0.5);
     color: #FFF;
 }
 

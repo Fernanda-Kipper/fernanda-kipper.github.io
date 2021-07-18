@@ -44,7 +44,11 @@ html body header #logo{
     background-size: 100%;
     height: 52px;
     width: 50px;
-    margin: 8px;
+    margin: 8px 20px;
+}
+
+html body header nav{
+    margin-right: 20px;
 }
 
 html body header nav a
@@ -55,7 +59,31 @@ html body header nav a
     color: var(--title);
     font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
+    position: relative;
 }
+
+html body header nav a:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: var(--titleColor);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+html body header nav a:hover:before{
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
 
 
 @media only screen and (min-width: 1200px)
