@@ -48,7 +48,8 @@ html body header #logo{
 }
 
 html body header nav{
-    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 html body header nav a
@@ -90,8 +91,12 @@ html body header nav a:hover:before{
         width: 60px;
     }
 
+    html body header nav{
+        margin-right: 20px;
+    }
+
     html body header nav a
     {
-    font-size: 20px;
+        font-size: 20px;
     }
 }

@@ -74,4 +74,5 @@ html body #experience #content-experience .timeline .event p
 {
   font-size: 1.2rem;
   color: #272d2d;
+  text-align: justify;
 }
