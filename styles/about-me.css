@@ -38,13 +38,11 @@ html body #about-me #content-me section img{
     height: 180px;
 }
 
-
-
 html body #about-me #content-me h2
 {
     font-size: 30px;
     text-align: center;
-    margin: 10px auto;
+    margin: 8px auto;
     
     color: var(--text);
 
